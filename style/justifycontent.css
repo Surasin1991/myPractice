@@ -1,0 +1,83 @@
+.container01 {
+    display: flex;
+    justify-content: flex-start;
+    background-color: dodgerblue;
+}
+.box01 {
+    width: 100px;
+    line-height: 3em;
+    margin: 5px;
+    background-color: #f1f1f1;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.container02 {
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: flex-end;
+}
+.box02 {
+    width: 100px;
+    line-height: 3em;
+    margin: 5px;
+    background-color: #f1f1f1;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.container03 {
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+}
+.container03 > div {
+    width: 100px;
+    line-height: 3em;
+    margin: 5px;
+    background-color: #f1f1f1;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.container04 {
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-between;
+}
+.container04 > div {
+    width: 15%;
+    font-size: 1.8em;
+    line-height: 3em;
+    margin: 5px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.container05 {
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-around;
+}
+.box05 {
+    font-size: 1.8em;
+    width: 20%;
+    line-height: 3em;
+    background-color: #f1f1f1;
+    margin: 5px;
+    text-align: center;
+}
+
+.container06 {
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box06 {
+    width: 18%;
+    font-size: 1.8em;
+    line-height: 4.5em;
+    margin: 5px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
